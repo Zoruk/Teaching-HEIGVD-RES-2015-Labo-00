@@ -5,8 +5,6 @@
  */
 package ch.heigvd.res.lab00;
 
-import ch.heigvd.res.lab00.IInstrument;
-
 /**
  *
  * @author zoruk
