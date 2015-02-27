@@ -5,27 +5,30 @@
  */
 package ch.heigvd.res.lab00;
 
+import ch.heigvd.res.lab00.IInstrument;
+
 /**
  *
  * @author zoruk
  */
-class Trumpet implements IInstrument {
+class Flute implements IInstrument {
 
-    public Trumpet() {
+    public Flute() {
     }
 
     @Override
     public String play() {
-        return "pouet";
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
 
     @Override
     public int getSoundVolume() {
-        return 2;
+        return 1;
     }
 
     @Override
     public String getColor() {
-        return "golden";
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
+    
 }
